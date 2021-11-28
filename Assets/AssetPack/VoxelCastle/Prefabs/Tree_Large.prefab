@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 123207630690511875}
   - component: {fileID: 6408337941620854877}
+  - component: {fileID: 517475031579162071}
   m_Layer: 0
   m_Name: Tree_Large
   m_TagString: Untagged
@@ -45,6 +46,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.6540985, y: 15.369049, z: 8.36182}
   m_Center: {x: 0.6121597, y: 7.1845236, z: 0.9529667}
+--- !u!114 &517475031579162071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792184948409546425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3019af62e47bfcf4ca83ce943afa5e21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerPrefab: {fileID: 0}
+  isPlaceable: 0
 --- !u!1 &8607403508854935136
 GameObject:
   m_ObjectHideFlags: 0
